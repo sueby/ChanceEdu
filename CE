@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学校列表 - 畅思留学</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="shortcut icon" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">畅思留学</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">主页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>学校列表</h1>
+        <div class="school-list">
+            <div class="school-item">
+                <h3>学校名称 1</h3>
+                <p>这是学校 1 的描述。</p>
+            </div>
+            <div class="school-item">
+                <h3>学校名称 2</h3>
+                <p>这是学校 2 的描述。</p>
+            </div>
+            <div class="school-item">
+                <h3>学校名称 3</h3>
+                <p>这是学校 3 的描述。</p>
+            </div>
+            <!-- 更多学校项 -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 畅思留学. 保留所有权利。</p>
+    </footer>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
